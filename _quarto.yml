@@ -3,10 +3,30 @@ project:
   output-dir: docs
 
 website:
-  title: "Meghana | Business Analytics"
+  title: "Meghana Murthy"
+  description: "A Business Analytics portfolio by Meghana V Murthy"
   favicon: images/favicon.ico
+  image: images/profile.jpg
+  site-url: https://55megh.github.io/my-portfolio
+  open-graph: true
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    border: true
+    background: dark
+    foreground: light
+    left: |
+      Powered by [{{< fa brands quarto >}} Quarto](https://quarto.org){target="_blank"}
+    center: |
+      &copy; 2025 [Meghana Murthy](https://55megh.github.io/my-portfolio){target="_blank"}
+    right: |
+      MSc Business Analytics | DCU
   navbar:
+    search: true
+    background: dark
+    foreground: light
     logo: images/logo.png
+    logo-alt: "Meghana Murthy logo"
     left:
       - text: "Home"
         href: index.qmd
@@ -22,16 +42,32 @@ website:
       - text: "CV"
         href: cv/meghana-cv.pdf
         target: _blank
-      - icon: github
-        href: https://github.com/55megh
+      - text: '{{< fa brands linkedin >}}'
+        href: "https://www.linkedin.com/in/meghana-v-murthy/"
         target: _blank
-  page-footer:
-    center: "© 2025 Meghana | Built with [Quarto](https://quarto.org)"
+      - text: '{{< fa brands github >}}'
+        href: "https://github.com/55megh"
+        target: _blank
+      - text: '{{< fa envelope >}}'
+        href: "mailto:mvmeghana9@gmail.com"
 
 format:
   html:
     theme: [flatly, styles.scss]
     toc: true
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+    link-external-newwindow: true
+    fig-align: center
+    syntax-highlighting:
+      light: github-light
+      dark: github-dark
 
+mermaid:
+  theme: neutral
+
+execute:
+  freeze: true
 
 
