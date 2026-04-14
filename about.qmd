@@ -1,0 +1,48 @@
+---
+title: "About Me"
+---
+
+## Background
+
+Write 2–3 sentences about yourself here.[^1]
+
+## Education
+
+| Degree | Institution | Year |
+|--------|------------|------|
+| MSc Business Analytics | Dublin City University | 2024–2025 |
+| YOUR UNDERGRAD | YOUR UNIVERSITY | YOUR YEAR |
+
+## Skills
+
+| Category | Skills |
+|----------|--------|
+| Programming | Python, SQL |
+| Tools | Quarto, Git, Excel, Power BI |
+| Analytics | Machine Learning, Data Visualisation, Statistics |
+
+## Goals
+
+::: {.callout-note}
+I am currently open to internship and graduate opportunities in 
+data analytics and business intelligence.
+:::
+
+Write 2–3 sentences about your career goals.
+
+## My Learning Journey
+
+Here is my progress throughout this module:
+
+- [x] Set up Quarto project
+- [x] Configured GitHub Pages
+- [x] Built project pages with Python code
+- [ ] Complete final reflections
+- [ ] Submit portfolio
+
+::: {.custom-highlight}
+I am passionate about using data to drive better business decisions.
+:::
+
+[^1]: I am currently pursuing my MSc at DCU's Business School, one of Ireland's 
+leading business analytics programmes.

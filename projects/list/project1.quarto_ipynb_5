@@ -1,0 +1,90 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Exploratory Data Analysis — Gapminder Dataset\"\n",
+        "description: \"Analysing global development trends using Python, pandas and Plotly.\"\n",
+        "author: \"Meghana\"\n",
+        "date: \"2025-01-15\"\n",
+        "image: ../../images/project1.png\n",
+        "categories: [Python, EDA, Plotly, Data Visualisation]\n",
+        "---\n",
+        "\n",
+        "## Overview\n",
+        "\n",
+        "In this project I explored the Gapminder dataset to understand relationships \n",
+        "between GDP, life expectancy, and population across countries and years.\n",
+        "\n",
+        "## Libraries Used\n",
+        "\n",
+        "| Library | Purpose |\n",
+        "|---------|---------|\n",
+        "| `pandas` | Data manipulation |\n",
+        "| `plotly.express` | Interactive visualisations |\n",
+        "\n",
+        "## Analysis"
+      ],
+      "id": "51b662f4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "import plotly.express as px\n",
+        "\n",
+        "# Load built-in Gapminder dataset\n",
+        "df = px.data.gapminder()\n",
+        "\n",
+        "# Filter for most recent year\n",
+        "df_2007 = df[df['year'] == 2007]\n",
+        "\n",
+        "# Interactive scatter plot\n",
+        "fig = px.scatter(\n",
+        "    df_2007,\n",
+        "    x=\"gdpPercap\",\n",
+        "    y=\"lifeExp\",\n",
+        "    size=\"pop\",\n",
+        "    color=\"continent\",\n",
+        "    hover_name=\"country\",\n",
+        "    log_x=True,\n",
+        "    title=\"GDP per Capita vs Life Expectancy (2007)\",\n",
+        "    labels={\"gdpPercap\": \"GDP per Capita\", \"lifeExp\": \"Life Expectancy\"}\n",
+        ")\n",
+        "fig.show()"
+      ],
+      "id": "8e12c4f6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Key Findings\n",
+        "\n",
+        "::: {.callout-note}\n",
+        "Countries with higher GDP per capita generally show higher life expectancy, \n",
+        "though with diminishing returns at very high income levels.\n",
+        ":::\n",
+        "\n",
+        "- **Europe and Oceania** consistently show the highest life expectancy.\n",
+        "- **Africa** shows the most variation, suggesting other factors at play."
+      ],
+      "id": "9e34b88f"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/opt/anaconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

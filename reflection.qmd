@@ -1,0 +1,65 @@
+---
+title: "Reflection"
+---
+
+## What I Learned
+
+Throughout this module I developed skills across several areas:
+
+- **Git & Version Control** — Learning to commit incrementally and write 
+  descriptive messages made tracking changes much easier.
+- **Quarto** — Building a full website with Quarto taught me how to combine 
+  code, narrative, and design in one place.
+- **Python** — I strengthened my data analysis and visualisation skills using 
+  pandas and Plotly.
+- **Web Design** — I learned how SCSS, themes, and layout work together to 
+  create a professional site.
+
+## My Workflow
+
+Here is how I approached building this portfolio:
+
+```{mermaid}
+flowchart LR
+  A[Plan Structure] --> B[Set Up Quarto]
+  B --> C[Build Pages]
+  C --> D[Add Python Code]
+  D --> E[Style with SCSS]
+  E --> F[Deploy to GitHub Pages]
+```
+
+## Data Analytics in Practice
+
+A key concept in analytics is the linear regression formula:
+
+$$y = \beta_0 + \beta_1 x + \epsilon$$
+
+Where $y$ is the predicted outcome, $x$ is the input variable, 
+and $\epsilon$ represents the error term.[^2]
+
+## Challenges
+
+::: {.callout-warning}
+The most challenging part was understanding YAML indentation — small 
+formatting errors can break the entire page.
+:::
+
+Write 1–2 more specific challenges you faced and how you solved them.
+
+## A Useful Resource
+
+Here is a short introduction to data analytics that I found helpful:
+
+{{< video https://www.youtube.com/watch?v=yZvFH7B6gKI >}}
+
+## Connecting to My Future
+
+::: {.callout-tip}
+These skills are directly relevant to roles in data analytics, where 
+communicating findings clearly is just as important as the analysis itself.
+:::
+
+Write how these skills connect to your future career goals.
+
+[^2]: This formula forms the basis of predictive modelling, a core skill 
+in business analytics.

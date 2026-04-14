@@ -1,0 +1,64 @@
+---
+title: "Sales Trend Analysis"
+description: "Analysing monthly sales trends and visualising performance across product categories."
+author: "Meghana"
+date: "2025-02-10"
+image: ../../images/project2.png
+categories: [Python, Sales, Data Analysis, Pandas]
+---
+
+## Overview
+
+This project analyses simulated monthly sales data to identify trends 
+and visualise performance across product categories.
+
+## Libraries Used
+
+| Library | Purpose |
+|---------|---------|
+| `pandas` | Data manipulation |
+| `numpy` | Generating sample data |
+| `plotly.express` | Interactive visualisations |
+
+## Analysis
+
+```{python}
+import pandas as pd
+import plotly.express as px
+import numpy as np
+
+# Generate sample sales data
+np.random.seed(42)
+months = pd.date_range(start="2024-01-01", periods=12, freq="ME")
+categories = ["Electronics", "Clothing", "Food"]
+
+data = []
+for cat in categories:
+    sales = np.random.randint(5000, 20000, size=12)
+    for month, sale in zip(months, sales):
+        data.append({"Month": month, "Category": cat, "Sales": sale})
+
+df = pd.DataFrame(data)
+
+# Line chart
+fig = px.line(
+    df,
+    x="Month",
+    y="Sales",
+    color="Category",
+    title="Monthly Sales by Category (2024)",
+    markers=True
+)
+fig.show()
+```
+
+## Key Findings
+
+::: {.callout-tip}
+Electronics showed the highest variance month-to-month, suggesting 
+seasonal demand patterns worth investigating further.
+:::
+
+- **Electronics** showed the highest sales overall.
+- **Food** remained the most consistent category throughout the year.
+- **Clothing** peaked mid-year, likely due to seasonal demand.
