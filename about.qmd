@@ -1,19 +1,25 @@
 ---
-title: "About Me"
+title: "About"
+subtitle: "a bit more about me, both inside and outside of my job"
+title-block-banner: true
 ---
 
-## Background
+## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} Professional Profile
 
-Write 2–3 sentences about yourself here.[^1]
+I am a results-driven data professional with six years of experience in the IT sector, currently refining my expertise through a Master’s in Business Analytics at Dublin City University. My background includes a strong foundation in ETL development and data visualization, with a proven track record of delivering technical solutions at global organizations like Cognizant and Infosys. I am particularly interested in the strategic application of machine learning and data science to drive innovation in healthcare and social entrepreneurship.
 
-## Education
+## {{< fa graduation-cap title="A mortarboard" >}} Education
+
+## {{< fa image title="A picture" >}} DCU Campus
+
+![Dublin City University, where I am pursuing my MSc in Business Analytics](images/dcu.jpg){fig-alt="DCU Campus" width="80%"}
 
 | Degree | Institution | Year |
 |--------|------------|------|
 | MSc Business Analytics | Dublin City University | 2024–2025 |
-| YOUR UNDERGRAD | YOUR UNIVERSITY | YOUR YEAR |
+| BE Computer Science | P.E.S College of Engineering | 2015–2019 |
 
-## Skills
+## {{< fa briefcase title="A professional toolbox or briefcase" >}} Skills
 
 | Category | Skills |
 |----------|--------|
@@ -21,24 +27,34 @@ Write 2–3 sentences about yourself here.[^1]
 | Tools | Quarto, Git, Excel, Power BI |
 | Analytics | Machine Learning, Data Visualisation, Statistics |
 
-## Goals
+## {{< fa rocket title="A rocket ship" >}} Goals
 
 ::: {.callout-note}
 I am currently open to internship and graduate opportunities in 
 data analytics and business intelligence.
 :::
 
-Write 2–3 sentences about your career goals.
+I aim to bridge the gap between raw data and actionable 
+business insights — helping organisations make smarter, evidence-based 
+decisions that drive real value.
 
-## My Learning Journey
+With a strong foundation in ETL development, Python, and machine learning, 
+I am keen to apply these skills in a role where data strategy and business 
+outcomes go hand in hand.
+
+Going forward, I aim to apply these skills in healthcare analytics or 
+social entrepreneurship — fields where data-driven insights can create 
+meaningful real-world impact.
+
+## {{< fa signs-post title="A signpost with multiple directions" >}} My Learning Journey
 
 Here is my progress throughout this module:
 
 - [x] Set up Quarto project
 - [x] Configured GitHub Pages
 - [x] Built project pages with Python code
-- [ ] Complete final reflections
-- [ ] Submit portfolio
+- [x]  Complete final reflections
+- [x] Submit portfolio
 
 ::: {.custom-highlight}
 I am passionate about using data to drive better business decisions.

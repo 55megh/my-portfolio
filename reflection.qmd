@@ -2,6 +2,7 @@
 title: "Reflection"
 ---
 
+
 ## What I Learned
 
 Throughout this module I developed skills across several areas:
@@ -44,13 +45,17 @@ The most challenging part was understanding YAML indentation — small
 formatting errors can break the entire page.
 :::
 
-Write 1–2 more specific challenges you faced and how you solved them.
+A second challenge was integrating active Python code chunks into Quarto 
+pages. Coming from a background in ETL development, I was familiar with 
+Python but had to learn how Quarto handles code execution, output rendering, 
+and interactive Plotly visualisations within a static site context.
 
 ## A Useful Resource
 
 Here is a short introduction to data analytics that I found helpful:
 
 {{< video https://www.youtube.com/watch?v=yZvFH7B6gKI >}}
+
 
 ## Connecting to My Future
 
@@ -59,7 +64,14 @@ These skills are directly relevant to roles in data analytics, where
 communicating findings clearly is just as important as the analysis itself.
 :::
 
-Write how these skills connect to your future career goals.
+This module has been a turning point in how I think about data work. 
+Having spent six years in data engineering at Cognizant and Infosys, 
+I have strong technical foundations — but this portfolio has shown me 
+the power of combining data science, analytics, and clear communication 
+into one cohesive skill set.
 
-[^2]: This formula forms the basis of predictive modelling, a core skill 
-in business analytics.
+My goal is to bring together my experience in data engineering, data 
+science, and business analytics to deliver end-to-end value for 
+organisations — from raw data pipelines all the way to strategic 
+business insights. I believe this combination is what makes a truly 
+impactful data professional in today's industry.

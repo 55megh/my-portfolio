@@ -1,26 +1,27 @@
 ---
 title: "Meghana Murthy"
-about:
-  template: trestles
+toc: false
+about: 
+  template: jolla
   image: images/profile.jpg
-  image-width: 15em
   image-shape: round
+  image-width: 15em
   links:
     - text: "{{< fa brands linkedin >}} LinkedIn"
       href: https://www.linkedin.com/in/meghana-v-murthy/
+      target: _blank
     - text: "{{< fa brands github >}} GitHub"
       href: https://github.com/55megh
+      target: _blank
     - text: "{{< fa envelope >}} Email"
       href: mailto:mvmeghana9@gmail.com
 ---
 
-I'm a Master's student in **Business Analytics at DCU**, passionate about 
-turning data into meaningful insights.
-
-I enjoy working with Python, data visualisation, and building analytical 
-solutions to real-world problems.
-
-> "Data is the new oil — but only if you know how to refine it."
-
-Feel free to explore my [projects](projects/index.qmd), read my 
-[reflections](reflection.qmd), or [get in touch](contact.qmd)!
+::: {#bio}
+Hi there! I'm Meghana, a Data Scientist and Business Analytics professional 
+with over six years of experience in the IT industry. My journey began in 
+ETL development, specialising in Informatica and data warehousing at 
+organisations like Infosys and Cognizant. Today, as a Master's candidate 
+at Dublin City University, I am bridging the gap between complex data 
+engineering and strategic business intelligence.
+:::

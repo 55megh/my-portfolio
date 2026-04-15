@@ -3,10 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Meghana Murthy"
-  description: "A Business Analytics portfolio by Meghana V Murthy"
+  title: "MEGHANA MURTHY"
+  description: "A Business Analytics portfolio by Meghana Murthy"
   favicon: images/favicon.ico
-  image: images/profile.jpg
   site-url: https://55megh.github.io/my-portfolio
   open-graph: true
   page-navigation: true
@@ -28,15 +27,15 @@ website:
     logo: images/logo.png
     logo-alt: "Meghana Murthy logo"
     left:
-      - text: "Home"
+      - text: "home"
         href: index.qmd
-      - text: "About"
+      - text: "about"
         href: about.qmd
-      - text: "Projects"
+      - text: "projects"
         href: projects/index.qmd
-      - text: "Reflection"
+      - text: "reflection"
         href: reflection.qmd
-      - text: "Contact"
+      - text: "contact"
         href: contact.qmd
     right:
       - text: "CV"
@@ -54,6 +53,7 @@ website:
 format:
   html:
     theme: [flatly, styles.scss]
+    mainfont: Nunito
     toc: true
     code-copy: true
     code-overflow: wrap
@@ -69,5 +69,8 @@ mermaid:
 
 execute:
   freeze: true
+
+
+
 
 

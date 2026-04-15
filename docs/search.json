@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a results-driven data professional with six years of experience in the IT sector, currently refining my expertise through a Master’s in Business Analytics at Dublin City University. My background includes a strong foundation in ETL development and data visualization, with a proven track record of delivering technical solutions at global organizations like Cognizant and Infosys. I am particularly interested in the strategic application of machine learning and data science to drive innovation in healthcare and social entrepreneurship."
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d74656163686572207469746c653d224120746561636865722061742061206368616c6b626f61726422203e7d7d-professional-profile",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d74656163686572207469746c653d224120746561636865722061742061206368616c6b626f61726422203e7d7d-professional-profile",
+    "title": "About",
+    "section": "",
+    "text": "I am a results-driven data professional with six years of experience in the IT sector, currently refining my expertise through a Master’s in Business Analytics at Dublin City University. My background includes a strong foundation in ETL development and data visualization, with a proven track record of delivering technical solutions at global organizations like Cognizant and Infosys. I am particularly interested in the strategic application of machine learning and data science to drive innovation in healthcare and social entrepreneurship."
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170207469746c653d2241206d6f72746172626f61726422203e7d7d-education",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170207469746c653d2241206d6f72746172626f61726422203e7d7d-education",
+    "title": "About",
+    "section": " Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120696d616765207469746c653d2241207069637475726522203e7d7d-dcu-campus",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120696d616765207469746c653d2241207069637475726522203e7d7d-dcu-campus",
+    "title": "About",
+    "section": " DCU Campus",
+    "text": "DCU Campus\n\n\n\nDublin City University, where I am pursuing my MSc in Business Analytics\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nMSc Business Analytics\nDublin City University\n2024–2025\n\n\nBE Computer Science\nP.E.S College of Engineering\n2015–2019"
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365207469746c653d22412070726f66657373696f6e616c20746f6f6c626f78206f722062726965666361736522203e7d7d-skills",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365207469746c653d22412070726f66657373696f6e616c20746f6f6c626f78206f722062726965666361736522203e7d7d-skills",
+    "title": "About",
+    "section": " Skills",
+    "text": "Skills\n\n\n\nCategory\nSkills\n\n\n\n\nProgramming\nPython, SQL\n\n\nTools\nQuarto, Git, Excel, Power BI\n\n\nAnalytics\nMachine Learning, Data Visualisation, Statistics"
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f636b6574207469746c653d224120726f636b6574207368697022203e7d7d-goals",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f636b6574207469746c653d224120726f636b6574207368697022203e7d7d-goals",
+    "title": "About",
+    "section": " Goals",
+    "text": "Goals\n\n\n\n\n\n\nNote\n\n\n\nI am currently open to internship and graduate opportunities in data analytics and business intelligence.\n\n\nI aim to bridge the gap between raw data and actionable business insights — helping organisations make smarter, evidence-based decisions that drive real value.\nWith a strong foundation in ETL development, Python, and machine learning, I am keen to apply these skills in a role where data strategy and business outcomes go hand in hand.\nGoing forward, I aim to apply these skills in healthcare analytics or social entrepreneurship — fields where data-driven insights can create meaningful real-world impact."
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207369676e732d706f7374207469746c653d2241207369676e706f73742077697468206d756c7469706c6520646972656374696f6e7322203e7d7d-my-learning-journey",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207369676e732d706f7374207469746c653d2241207369676e706f73742077697468206d756c7469706c6520646972656374696f6e7322203e7d7d-my-learning-journey",
+    "title": "About",
+    "section": " My Learning Journey",
+    "text": "My Learning Journey\nHere is my progress throughout this module:\n\nSet up Quarto project\nConfigured GitHub Pages\nBuilt project pages with Python code\nComplete final reflections\nSubmit portfolio\n\n\nI am passionate about using data to drive better business decisions."
+  },
+  {
+    "objectID": "projects/list/project2.html",
+    "href": "projects/list/project2.html",
+    "title": "Sales Trend Analysis",
+    "section": "",
+    "text": "This project analyses simulated monthly sales data to identify trends and visualise performance across product categories."
+  },
+  {
+    "objectID": "projects/list/project2.html#overview",
+    "href": "projects/list/project2.html#overview",
+    "title": "Sales Trend Analysis",
+    "section": "",
+    "text": "This project analyses simulated monthly sales data to identify trends and visualise performance across product categories."
+  },
+  {
+    "objectID": "projects/list/project2.html#libraries-used",
+    "href": "projects/list/project2.html#libraries-used",
+    "title": "Sales Trend Analysis",
+    "section": "Libraries Used",
+    "text": "Libraries Used\n\n\n\nLibrary\nPurpose\n\n\n\n\npandas\nData manipulation\n\n\nnumpy\nGenerating sample data\n\n\nplotly.express\nInteractive visualisations"
+  },
+  {
+    "objectID": "projects/list/project2.html#analysis",
+    "href": "projects/list/project2.html#analysis",
+    "title": "Sales Trend Analysis",
+    "section": "Analysis",
+    "text": "Analysis\n\nimport pandas as pd\nimport plotly.express as px\nimport numpy as np\n\n# Generate sample sales data\nnp.random.seed(42)\nmonths = pd.date_range(start=\"2024-01-01\", periods=12, freq=\"ME\")\ncategories = [\"Electronics\", \"Clothing\", \"Food\"]\n\ndata = []\nfor cat in categories:\n    sales = np.random.randint(5000, 20000, size=12)\n    for month, sale in zip(months, sales):\n        data.append({\"Month\": month, \"Category\": cat, \"Sales\": sale})\n\ndf = pd.DataFrame(data)\n\n# Line chart\nfig = px.line(\n    df,\n    x=\"Month\",\n    y=\"Sales\",\n    color=\"Category\",\n    title=\"Monthly Sales by Category (2024)\",\n    markers=True\n)\nfig.show()"
+  },
+  {
+    "objectID": "projects/list/project2.html#key-findings",
+    "href": "projects/list/project2.html#key-findings",
+    "title": "Sales Trend Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\n\n\n\nTip\n\n\n\nElectronics showed the highest variance month-to-month, suggesting seasonal demand patterns worth investigating further.\n\n\n\nElectronics showed the highest sales overall.\nFood remained the most consistent category throughout the year.\nClothing peaked mid-year, likely due to seasonal demand."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Sales Trend Analysis\n\n\n\nPython\n\nSales\n\nData Analysis\n\nPandas\n\n\n\nAnalysing monthly sales trends and visualising performance across product categories.\n\n\n\nFeb 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis — Gapminder Dataset\n\n\n\nPython\n\nEDA\n\nPlotly\n\nData Visualisation\n\n\n\nAnalysing global development trends using Python, pandas and Plotly.\n\n\n\nJan 15, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I’d love to connect! You can reach me through any of the following:\n\n\n\nPlatform\nLink\n\n\n\n\n Email\nmvmeghana9@gmail.com\n\n\n LinkedIn\nMeghana V Murthy\n\n\n GitHub\n55megh"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I’d love to connect! You can reach me through any of the following:\n\n\n\nPlatform\nLink\n\n\n\n\n Email\nmvmeghana9@gmail.com\n\n\n LinkedIn\nMeghana V Murthy\n\n\n GitHub\n55megh"
+  },
+  {
+    "objectID": "contact.html#references",
+    "href": "contact.html#references",
+    "title": "Contact & References",
+    "section": "References",
+    "text": "References\nAvailable upon request."
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module I developed skills across several areas:\n\nGit & Version Control — Learning to commit incrementally and write descriptive messages made tracking changes much easier.\nQuarto — Building a full website with Quarto taught me how to combine code, narrative, and design in one place.\nPython — I strengthened my data analysis and visualisation skills using pandas and Plotly.\nWeb Design — I learned how SCSS, themes, and layout work together to create a professional site."
+  },
+  {
+    "objectID": "reflection.html#what-i-learned",
+    "href": "reflection.html#what-i-learned",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module I developed skills across several areas:\n\nGit & Version Control — Learning to commit incrementally and write descriptive messages made tracking changes much easier.\nQuarto — Building a full website with Quarto taught me how to combine code, narrative, and design in one place.\nPython — I strengthened my data analysis and visualisation skills using pandas and Plotly.\nWeb Design — I learned how SCSS, themes, and layout work together to create a professional site."
+  },
+  {
+    "objectID": "reflection.html#my-workflow",
+    "href": "reflection.html#my-workflow",
+    "title": "Reflection",
+    "section": "My Workflow",
+    "text": "My Workflow\nHere is how I approached building this portfolio:\n\n\n\n\n\nflowchart LR\n  A[Plan Structure] --&gt; B[Set Up Quarto]\n  B --&gt; C[Build Pages]\n  C --&gt; D[Add Python Code]\n  D --&gt; E[Style with SCSS]\n  E --&gt; F[Deploy to GitHub Pages]"
+  },
+  {
+    "objectID": "reflection.html#data-analytics-in-practice",
+    "href": "reflection.html#data-analytics-in-practice",
+    "title": "Reflection",
+    "section": "Data Analytics in Practice",
+    "text": "Data Analytics in Practice\nA key concept in analytics is the linear regression formula:\n\\[y = \\beta_0 + \\beta_1 x + \\epsilon\\]\nWhere \\(y\\) is the predicted outcome, \\(x\\) is the input variable, and \\(\\epsilon\\) represents the error term.[^2]"
+  },
+  {
+    "objectID": "reflection.html#challenges",
+    "href": "reflection.html#challenges",
+    "title": "Reflection",
+    "section": "Challenges",
+    "text": "Challenges\n\n\n\n\n\n\nWarning\n\n\n\nThe most challenging part was understanding YAML indentation — small formatting errors can break the entire page.\n\n\nA second challenge was integrating active Python code chunks into Quarto pages. Coming from a background in ETL development, I was familiar with Python but had to learn how Quarto handles code execution, output rendering, and interactive Plotly visualisations within a static site context."
+  },
+  {
+    "objectID": "reflection.html#a-useful-resource",
+    "href": "reflection.html#a-useful-resource",
+    "title": "Reflection",
+    "section": "A Useful Resource",
+    "text": "A Useful Resource\nHere is a short introduction to data analytics that I found helpful:"
+  },
+  {
+    "objectID": "reflection.html#connecting-to-my-future",
+    "href": "reflection.html#connecting-to-my-future",
+    "title": "Reflection",
+    "section": "Connecting to My Future",
+    "text": "Connecting to My Future\n\n\n\n\n\n\nTip\n\n\n\nThese skills are directly relevant to roles in data analytics, where communicating findings clearly is just as important as the analysis itself.\n\n\nThis module has been a turning point in how I think about data work. Having spent six years in data engineering at Cognizant and Infosys, I have strong technical foundations — but this portfolio has shown me the power of combining data science, analytics, and clear communication into one cohesive skill set.\nMy goal is to bring together my experience in data engineering, data science, and business analytics to deliver end-to-end value for organisations — from raw data pipelines all the way to strategic business insights. I believe this combination is what makes a truly impactful data professional in today’s industry."
+  },
+  {
+    "objectID": "projects/list/project1.html",
+    "href": "projects/list/project1.html",
+    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "section": "",
+    "text": "In this project I explored the Gapminder dataset to understand relationships between GDP, life expectancy, and population across countries and years.\n\n\n\nGlobal development trends visualised using the Gapminder dataset"
+  },
+  {
+    "objectID": "projects/list/project1.html#overview",
+    "href": "projects/list/project1.html#overview",
+    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "section": "",
+    "text": "In this project I explored the Gapminder dataset to understand relationships between GDP, life expectancy, and population across countries and years.\n\n\n\nGlobal development trends visualised using the Gapminder dataset"
+  },
+  {
+    "objectID": "projects/list/project1.html#libraries-used",
+    "href": "projects/list/project1.html#libraries-used",
+    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "section": "Libraries Used",
+    "text": "Libraries Used\n\n\n\nLibrary\nPurpose\n\n\n\n\npandas\nData manipulation\n\n\nplotly.express\nInteractive visualisations"
+  },
+  {
+    "objectID": "projects/list/project1.html#analysis",
+    "href": "projects/list/project1.html#analysis",
+    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "section": "Analysis",
+    "text": "Analysis\n\nimport pandas as pd\nimport plotly.express as px\n\n# Load built-in Gapminder dataset\ndf = px.data.gapminder()\n\n# Filter for most recent year\ndf_2007 = df[df['year'] == 2007]\n\n# Interactive scatter plot\nfig = px.scatter(\n    df_2007,\n    x=\"gdpPercap\",\n    y=\"lifeExp\",\n    size=\"pop\",\n    color=\"continent\",\n    hover_name=\"country\",\n    log_x=True,\n    title=\"GDP per Capita vs Life Expectancy (2007)\",\n    labels={\"gdpPercap\": \"GDP per Capita\", \"lifeExp\": \"Life Expectancy\"}\n)\nfig.show()"
+  },
+  {
+    "objectID": "projects/list/project1.html#key-findings",
+    "href": "projects/list/project1.html#key-findings",
+    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\n\n\n\nNote\n\n\n\nCountries with higher GDP per capita generally show higher life expectancy, though with diminishing returns at very high income levels.\n\n\n\nEurope and Oceania consistently show the highest life expectancy.\nAfrica shows the most variation, suggesting other factors at play."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Meghana Murthy",
+    "section": "",
+    "text": "Hi there! I’m Meghana, a Data Scientist and Business Analytics professional with over six years of experience in the IT industry. My journey began in ETL development, specialising in Informatica and data warehousing at organisations like Infosys and Cognizant. Today, as a Master’s candidate at Dublin City University, I am bridging the gap between complex data engineering and strategic business intelligence.\n\n\n\n Back to top"
+  }
+]

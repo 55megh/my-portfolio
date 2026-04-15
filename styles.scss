@@ -1,25 +1,27 @@
 /*-- scss:defaults --*/
-$navbar-bg: #2c3e50;
-$navbar-fg: #ffffff;
-$body-bg: #ffffff;
-$body-color: #2c3e50;
-$link-color: #2980b9;
-$font-family-sans-serif: "Inter", sans-serif;
+$navbar-bg: #FDFBF7;
+$navbar-fg: #98A08D;
+$body-bg: #D1D9CE;
+$body-color: #474e3eeb;
+$link-color: #98A08D;
+$font-family-sans-serif: "Nunito", sans-serif;
 $headings-font-weight: 600;
+$font-size-base: 1.2rem; 
+
 
 /*-- scss:rules --*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 .custom-highlight {
   background-color: #eaf4fb;
-  border-left: 4px solid #2980b9;
+  border-left: 4px solid #5d6354;
   padding: 1rem;
   border-radius: 4px;
   font-style: italic;
 }
 
 h1, h2, h3 {
-  color: #2c3e50;
+  color: #556055;
   margin-bottom: 0.8rem;
 }
 
@@ -36,7 +38,7 @@ h1, h2, h3 {
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: #7f8c8d;
+  color: #D1D9CE;
 }
 
 
