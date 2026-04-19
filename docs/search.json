@@ -88,7 +88,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "3XM Data Analytics Project\n\n\n\nPython\n\nData Analytics\n\n\n\nThis project applies two Machine learning algorithms to develop a complete business analytics pipeline for 3XM Solutions, a company specialising in premium products for…\n\n\n\nNov 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBERT vs. Generative AI for Business Applications: A Sentiment Analysis Comparison Using Rotten Tomatoes Reviews\n\n\n\nPython\n\nNLP\n\nBERT\n\nDeep Learning\n\n\n\nFine-tuning BERT on Rotten Tomatoes reviews and comparing with Llama 3.1 zero-shot and few-shot prompting.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Trend Analysis\n\n\n\nPython\n\nSales\n\nData Analysis\n\nPandas\n\n\n\nAnalysing monthly sales trends and visualising performance across product categories.\n\n\n\nFeb 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis — Gapminder Dataset\n\n\n\nPython\n\nEDA\n\nPlotly\n\nData Visualisation\n\n\n\nAnalysing global development trends using Python, pandas and Plotly.\n\n\n\nJan 15, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "3XM Data Analytics Project\n\n\n\nPython\n\nData Analytics\n\n\n\nThis project applies two Machine learning algorithms to develop a complete business analytics pipeline for 3XM Solutions, a company specialising in premium products for…\n\n\n\nNov 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPower BI Dashboard — Sales Analysis\n\n\n\nPower BI\n\nData Visualisation\n\nBusiness Analytics\n\n\n\nAn interactive business dashboard built in Power BI analysing sales trends and KPIs.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBERT vs. Generative AI for Business Applications: A Sentiment Analysis Comparison Using Rotten Tomatoes Reviews\n\n\n\nPython\n\nNLP\n\nBERT\n\nDeep Learning\n\n\n\nFine-tuning BERT on Rotten Tomatoes reviews and comparing with Llama 3.1 zero-shot and few-shot prompting.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Trend Analysis\n\n\n\nPython\n\nSales\n\nData Analysis\n\nPandas\n\n\n\nAnalysing monthly sales trends and visualising performance across product categories.\n\n\n\nFeb 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis — Gapminder Dataset\n\n\n\nPython\n\nEDA\n\nPlotly\n\nData Visualisation\n\n\n\nAnalysing global development trends using Python, pandas and Plotly.\n\n\n\nJan 15, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "contact.html",
@@ -278,5 +278,47 @@
     "title": "3XM Data Analytics Project",
     "section": "Conclusion",
     "text": "Conclusion\nBased on the analysis it is clear that other than total, which is a case of target leakage, the most important predictors of real revenue for 3XM Solutions are cost of shipping and weight, closely followed by day of order and admin order. The use of the RF model without total as well as the ridge regression are the best course of action going forward for 3XM Solutions to utilise ML models for revenue prediction. Given the importance of weight and cost of shipping, 3XM could focus on marketing larger products which provide more revenue in the short term such as folio boxes with prints etc. The lowest feature importance were the country variables, thus there is less need for 3XM to examine countries individually."
+  },
+  {
+    "objectID": "projects/list/powerbi-dashboard.html",
+    "href": "projects/list/powerbi-dashboard.html",
+    "title": "Power BI Dashboard — Sales Analysis",
+    "section": "",
+    "text": "Brief intro — what business problem does this dashboard solve? What data did you use?"
+  },
+  {
+    "objectID": "projects/list/powerbi-dashboard.html#overview",
+    "href": "projects/list/powerbi-dashboard.html#overview",
+    "title": "Power BI Dashboard — Sales Analysis",
+    "section": "",
+    "text": "Brief intro — what business problem does this dashboard solve? What data did you use?"
+  },
+  {
+    "objectID": "projects/list/powerbi-dashboard.html#dashboard",
+    "href": "projects/list/powerbi-dashboard.html#dashboard",
+    "title": "Power BI Dashboard — Sales Analysis",
+    "section": "Dashboard",
+    "text": "Dashboard\n\n\n\nPower BI Dashboard"
+  },
+  {
+    "objectID": "projects/list/powerbi-dashboard.html#key-insights",
+    "href": "projects/list/powerbi-dashboard.html#key-insights",
+    "title": "Power BI Dashboard — Sales Analysis",
+    "section": "Key Insights",
+    "text": "Key Insights\n\nInsight 1 from your dashboard\nInsight 2\nInsight 3"
+  },
+  {
+    "objectID": "projects/list/powerbi-dashboard.html#tools-used",
+    "href": "projects/list/powerbi-dashboard.html#tools-used",
+    "title": "Power BI Dashboard — Sales Analysis",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nPower BI Desktop\nData source: [e.g. Excel, SQL, CSV]"
+  },
+  {
+    "objectID": "projects/list/powerbi-dashboard.html#conclusion",
+    "href": "projects/list/powerbi-dashboard.html#conclusion",
+    "title": "Power BI Dashboard — Sales Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhat decisions could a business make using this dashboard?"
   }
 ]

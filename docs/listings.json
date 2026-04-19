@@ -3,6 +3,7 @@
     "listing": "/projects/index.html",
     "items": [
       "/projects/list/3xm-analytics.html",
+      "/projects/list/powerbi-dashboard.html",
       "/projects/list/bert-sentiment.html",
       "/projects/list/project2.html",
       "/projects/list/project1.html"
