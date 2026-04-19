@@ -1,0 +1,192 @@
+---
+title: "3XM Data Analytics Project"
+description: "This project applies two Machine learning algorithms to develop a complete business analytics pipeline for 3XM Solutions, a company specialising in premium products for professional photographers. 
+."
+date: "2025-11-21"
+categories: [Python, Data Analytics]
+image: ../../images/da.png 
+execute:
+  eval: false
+  freeze: false
+echo: true
+---
+
+## Overview
+The primary objective of this project is to build a supervised ML model that predicts real revenue based on sales data from 2023-present. The project will explore different features, such as product type, country, and shipping method, and how these features impact real revenue. The goal is to be able to utilise this model to enhance operational decision making and marketing strategies by analysing the impact of the features on real revenue.
+
+## Code
+
+```{python}
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov 28 18:36:59 2025
+
+@author: rylem
+"""
+
+#Imports
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error, r2_score, accuracy_score
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import cross_val_score
+
+#Installing data and checking for cleaning needed
+df = pd.read_excel("C:\\Users\\rylem\\OneDrive\\Desktop\\3XM Data Analytics Tools and Techniques Copy.xlsx")
+df.describe()
+df.columns
+df.info()
+
+#Change voucher column and country names
+df['voucher_used'] = df['voucher'].notnull().astype(int)
+
+
+print(df['country'].unique())
+country_name = {
+    'USA': 'United States',
+    'Nederland': 'Netherlands',
+    '√É‚Äìsterreich': 'Austria',
+    'Belgi√É¬´': 'Belgium',
+    'Sverige': 'Sweden',
+    'England': 'United Kingdom',
+    'Scotland': 'United Kingdom',
+    'Wales': 'United Kingdom',
+    'Northern Ireland': 'United Kingdom'
+}
+
+df['country_clean'] = df['country'].replace(country_name)
+
+print(df['country_clean'].unique())
+
+#Change date column
+df['order_month'] = df['date'].dt.month
+df['order_quarter'] = df['date'].dt.quarter
+df['order_dayofweek'] = df['date'].dt.dayofweek
+df['order_year'] = df['date'].dt.year
+
+#Drop certain columns
+df = df.drop(['order_id', 'photographer_id', 'voucher','activation_date',
+              'country','payment_method','payment_date', 'date'], axis = 1)
+
+#Change non-numerical variables - Dummy variable encoding
+df_encoded = pd.get_dummies(df, columns=['currency', 'country_clean'], drop_first=True, dtype = int)
+
+#EDA  and Data Leakage
+Q1 = df['real_revenue'].quantile(0.25)
+Q3 = df['real_revenue'].quantile(0.75)
+IQR = Q3 - Q1
+
+
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+outliers = df[(df['real_revenue'] < lower_bound) | (df['real_revenue'] > upper_bound)]
+print("Number of outliers:", len(outliers))
+min_val = df['real_revenue'].min()
+max_val = df['real_revenue'].max()
+
+print("Minimum real_revenue:", min_val)
+print("Maximum real_revenue:", max_val)
+
+range_val = max_val - min_val
+print("Range of real_revenue:", range_val)
+
+plt.figure(figsize=(8,5))
+sns.boxplot(x=df['real_revenue'])
+plt.title('Boxplot of Real Revenue')
+plt.xlabel('Real Revenue')
+plt.show()
+
+np.corrcoef(df['real_revenue'], df['total'])
+sns.scatterplot(x=df['total'], y=df['real_revenue'], alpha=0.5, color = 'b')
+plt.title('Correlation between Total and Real Revenue')
+plt.xlabel('Total')
+plt.ylabel('Real Revenue')
+plt.show()
+
+#Export clean dataset
+# Export to CSV
+df_encoded.to_csv("clean_dataset.csv", index=False)
+#Train and test RF model using total column 
+X = df_encoded.drop('real_revenue', axis=1)
+y = df_encoded['real_revenue']
+
+train_x, test_x, train_y, test_y = train_test_split(X, y, test_size = 0.3, random_state=42)
+
+results = []
+
+for n in [10,50,100,200,300,400,500]:
+    rf = RandomForestRegressor(n_estimators = n, max_features = None, random_state = 42)
+    rf.fit(train_x, train_y)
+    y_pred = rf.predict(test_x)
+    rmse = np.sqrt(mean_squared_error(test_y, y_pred))
+    r2 = r2_score(test_y, y_pred)
+    results.append((n, rmse, r2 ))
+
+# model using 300 trees and cross validation to check accuracy 
+rf = RandomForestRegressor(n_estimators = 300, max_features = None, random_state = 42)
+
+rf.fit(train_x, train_y)
+
+y_pred = rf.predict(test_x)
+
+mse = mean_squared_error(test_y, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(test_y, y_pred)
+
+print('RMSE', rmse)
+print('R2', r2)
+rf.feature_importances_
+
+cv_r2 = cross_val_score(rf, X, y, cv=5, scoring='r2')
+cv_rmse = np.sqrt(-cross_val_score(rf, X, y, cv=5, scoring='neg_mean_squared_error'))
+cv_mae = -cross_val_score(rf, X, y, cv=5, scoring='neg_mean_absolute_error')
+
+#Train and test RF model not using total column
+X = df_encoded.drop(['real_revenue', 'total'], axis=1)
+y = df_encoded['real_revenue']
+
+train_x, test_x, train_y, test_y = train_test_split(X, y, test_size = 0.3, random_state=42)
+
+results = []
+
+for n in [10,50,100,200,300,400,500]:
+    rf = RandomForestRegressor(n_estimators = n, max_features = None, random_state = 42)
+    rf.fit(train_x, train_y)
+    y_pred = rf.predict(test_x)
+    rmse = np.sqrt(mean_squared_error(test_y, y_pred))
+    r2 = r2_score(test_y, y_pred)
+    results.append((n, rmse, r2 ))
+
+# model using 300 trees and cross validation to check accuracy 
+rf = RandomForestRegressor(n_estimators = 300, max_features = None, random_state = 42)
+
+rf.fit(train_x, train_y)
+
+y_pred = rf.predict(test_x)
+
+mse = mean_squared_error(test_y, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(test_y, y_pred)
+
+print('RMSE', rmse)
+print('R2', r2)
+rf.feature_importances_
+
+cv_r2 = cross_val_score(rf, X, y, cv=5, scoring='r2')
+cv_rmse = np.sqrt(-cross_val_score(rf, X, y, cv=5, scoring='neg_mean_squared_error'))
+cv_mae = -cross_val_score(rf, X, y, cv=5, scoring='neg_mean_absolute_error')
+
+```
+
+## Results
+In Summary, Random Forest outperformed the other models, capturing nonlinear patterns and delivering the best accuracy. Simple linear models had low explanatory power (R²≈0.21–0.29), while Ridge regression (L2) handled multicollinearity with high accuracy  (R²≈0.92). Polynomial regression improved the fit over Linear and Ridge models but risks overfitting at higher polynomial degrees.
+
+In conclusion the RF Regressor was the strongest predictive model, explaining 97.68% of the variability in Real Revenue (R2=0.9768). The average prediction error (MAE) was only €14.64. Ridge Regression was selected as the primary regression model for interpretation due to its strong performance (R2≈0.92).
+
+
+## Conclusion
+Based on the analysis it is clear that other than total, which is a case of target leakage, the most important predictors of real revenue for 3XM Solutions are cost of shipping and weight, closely followed by day of order and admin order. The use of the RF model without total as well as the ridge regression are the best course of action going forward for 3XM Solutions to utilise ML models for revenue prediction. Given the importance of weight and cost of shipping, 3XM could focus on marketing larger products which provide more revenue in the short term such as folio boxes with prints etc. The lowest feature importance were the country variables, thus there is less need for 3XM to examine countries individually.

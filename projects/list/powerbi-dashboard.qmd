@@ -1,0 +1,25 @@
+---
+title: "Power BI Dashboard — Sales Analysis"
+description: "An interactive business dashboard built in Power BI analysing sales trends and KPIs."
+date: "2025-04-19"
+categories: [Power BI, Data Visualisation, Business Analytics]
+image: images/powerbi-thumbnail.png
+---
+
+## Overview
+Brief intro — what business problem does this dashboard solve? What data did you use?
+
+## Dashboard
+![Power BI Dashboard](images/powerbi-thumbnail.png){fig-align="center" width="100%"}
+
+## Key Insights
+- Insight 1 from your dashboard
+- Insight 2
+- Insight 3
+
+## Tools Used
+- Power BI Desktop
+- Data source: [e.g. Excel, SQL, CSV]
+
+## Conclusion
+What decisions could a business make using this dashboard?

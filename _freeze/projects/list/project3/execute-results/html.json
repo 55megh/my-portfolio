@@ -1,0 +1,12 @@
+{
+  "hash": "fde54f84823d044c7128db606da91b3d",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"BERT vs. Generative AI for Business Applications\"\ndescription: \"A Sentiment Analysis Comparison Using Rotten Tomatoes Reviews\"\nauthor: \"Meghana\"\ndate: \"2025-02-10\"\nimage: ../../images/project2.png\ncategories: [Python, Sales, Machine Learning, Pandas, PyTorch]\n---\n\n## Overview\n\nThis project analyses simulated monthly sales data to identify trends \nand visualise performance across product categories.\n\n## Libraries Used\n\n| Library | Purpose |\n|---------|---------|\n| `pandas` | Data manipulation |\n| `numpy` | Generating sample data |\n| `plotly.express` | Interactive visualisations |\n\n## Analysis\n\n::: {#6585cf25 .cell execution_count=1}\n``` {.python .cell-code}\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport torch\nimport warnings\nwarnings.filterwarnings('ignore')\n\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import (\n    accuracy_score, precision_score, recall_score,\n    f1_score, classification_report, confusion_matrix\n)\n\nfrom transformers import (\n    BertTokenizer,\n    BertForSequenceClassification,\n    TrainingArguments,\n    Trainer,\n    EarlyStoppingCallback\n)\nfrom torch.utils.data import Dataset\n\n# Check GPU availability\ndevice = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\nprint(f'Using device: {device}')\nprint(f'PyTorch version: {torch.__version__}')\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nUsing device: cpu\nPyTorch version: 2.11.0\n```\n:::\n:::\n\n\n## Key Findings\n\n::: {.callout-tip}\nElectronics showed the highest variance month-to-month, suggesting \nseasonal demand patterns worth investigating further.\n:::\n\n- **Electronics** showed the highest sales overall.\n- **Food** remained the most consistent category throughout the year.\n- **Clothing** peaked mid-year, likely due to seasonal demand.\n\n",
+    "supporting": [
+      "project3_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

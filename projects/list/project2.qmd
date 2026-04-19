@@ -3,7 +3,7 @@ title: "Sales Trend Analysis"
 description: "Analysing monthly sales trends and visualising performance across product categories."
 author: "Meghana"
 date: "2025-02-10"
-image: ../../images/project2.png
+image: ../../images/project2.jpg
 categories: [Python, Sales, Data Analysis, Pandas]
 ---
 

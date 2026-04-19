@@ -3,7 +3,7 @@ title: "Exploratory Data Analysis — Gapminder Dataset"
 description: "Analysing global development trends using Python, pandas and Plotly."
 author: "Meghana"
 date: "2025-01-15"
-image: ../../images/project1.png
+image: ../../images/project1.jpg
 categories: [Python, EDA, Plotly, Data Visualisation]
 ---
 
