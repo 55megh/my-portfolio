@@ -284,14 +284,14 @@
     "href": "projects/list/powerbi-dashboard.html",
     "title": "Power BI Dashboard — Sales Analysis",
     "section": "",
-    "text": "Brief intro — what business problem does this dashboard solve? What data did you use?"
+    "text": "Our Analysis provides an overview of TechNova Inc.’s performance over the period of 2015 to 2024 based on the visualizations we created with Power BI. Our Analysis focuses on sales, profit & operational performances by regions, product category and sales channels to uncover the main drivers of business outcomes."
   },
   {
     "objectID": "projects/list/powerbi-dashboard.html#overview",
     "href": "projects/list/powerbi-dashboard.html#overview",
     "title": "Power BI Dashboard — Sales Analysis",
     "section": "",
-    "text": "Brief intro — what business problem does this dashboard solve? What data did you use?"
+    "text": "Our Analysis provides an overview of TechNova Inc.’s performance over the period of 2015 to 2024 based on the visualizations we created with Power BI. Our Analysis focuses on sales, profit & operational performances by regions, product category and sales channels to uncover the main drivers of business outcomes."
   },
   {
     "objectID": "projects/list/powerbi-dashboard.html#dashboard",
@@ -305,7 +305,7 @@
     "href": "projects/list/powerbi-dashboard.html#key-insights",
     "title": "Power BI Dashboard — Sales Analysis",
     "section": "Key Insights",
-    "text": "Key Insights\n\nInsight 1 from your dashboard\nInsight 2\nInsight 3"
+    "text": "Key Insights\nStrengthen online sales by improving the website and digital marketing. Raise profitability in weaker regions with better pricing and fewer discounts. Focus on high-performing products and apply strategies to other categories. Train sales representatives to turn sales into higher profits. Plan ahead to keep profits steady and avoid losses. Use discounts carefully to support sales without affecting margins"
   },
   {
     "objectID": "projects/list/powerbi-dashboard.html#tools-used",
@@ -319,6 +319,6 @@
     "href": "projects/list/powerbi-dashboard.html#conclusion",
     "title": "Power BI Dashboard — Sales Analysis",
     "section": "Conclusion",
-    "text": "Conclusion\nWhat decisions could a business make using this dashboard?"
+    "text": "Conclusion\nThroughout the period of analysis, TechNova Inc. has shown greater resilience although revenue and profits were up and down yearly it looks like the strategy is working recently and recovery is in place. Based on our analysis, we recommend focusing on high-margin products, accelerating digital transformation, and implementing region-specific strategies. Using data analytics to optimize pricing, forecast demand and manage operations leads to more evidence-driven decisions whilst supporting long-term sustainability and profit objectives."
   }
 ]
