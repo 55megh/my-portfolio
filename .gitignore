@@ -6,3 +6,9 @@ __pycache__/
 *.quarto_ipynb*
 
 **/*.quarto_ipynb
+
+# Large BERT model files
+projects/list/bert_sentiment_results/
+**/*.bin
+**/*.pt
+**/*.safetensors
