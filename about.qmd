@@ -1,6 +1,6 @@
 ---
 title: "About"
-subtitle: "a bit more about me, both inside and outside of my job"
+subtitle: "a bit more about me!"
 title-block-banner: true
 ---
 
@@ -16,15 +16,15 @@ I am a results-driven data professional with six years of experience in the IT s
 
 | Degree | Institution | Year |
 |--------|------------|------|
-| MSc Business Analytics | Dublin City University | 2024–2025 |
-| BE Computer Science | P.E.S College of Engineering | 2015–2019 |
+| M.Sc Business Analytics | Dublin City University | 2024–2025 |
+| B.E Computer Science | P.E.S College of Engineering | 2015–2019 |
 
 ## {{< fa briefcase title="A professional toolbox or briefcase" >}} Skills
 
 | Category | Skills |
 |----------|--------|
-| Programming | Python, SQL |
-| Tools | Quarto, Git, Excel, Power BI |
+| Programming | Python, SQL, C++ |
+| Tools | Quarto, Git, Excel, Power BI, Informatica, Alteryx, Mulesoft |
 | Analytics | Machine Learning, Data Visualisation, Statistics |
 
 ## {{< fa rocket title="A rocket ship" >}} Goals
@@ -38,7 +38,7 @@ I aim to bridge the gap between raw data and actionable
 business insights — helping organisations make smarter, evidence-based 
 decisions that drive real value.
 
-With a strong foundation in ETL development, Python, and machine learning, 
+With a strong foundation in ETL development, Python, and Machine Learning, 
 I am keen to apply these skills in a role where data strategy and business 
 outcomes go hand in hand.
 

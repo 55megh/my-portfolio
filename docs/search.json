@@ -25,21 +25,21 @@
     "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120696d616765207469746c653d2241207069637475726522203e7d7d-dcu-campus",
     "title": "About",
     "section": " DCU Campus",
-    "text": "DCU Campus\n\n\n\nDublin City University, where I am pursuing my MSc in Business Analytics\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nMSc Business Analytics\nDublin City University\n2024–2025\n\n\nBE Computer Science\nP.E.S College of Engineering\n2015–2019"
+    "text": "DCU Campus\n\n\n\nDublin City University, where I am pursuing my MSc in Business Analytics\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nM.Sc Business Analytics\nDublin City University\n2024–2025\n\n\nB.E Computer Science\nP.E.S College of Engineering\n2015–2019"
   },
   {
     "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365207469746c653d22412070726f66657373696f6e616c20746f6f6c626f78206f722062726965666361736522203e7d7d-skills",
     "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365207469746c653d22412070726f66657373696f6e616c20746f6f6c626f78206f722062726965666361736522203e7d7d-skills",
     "title": "About",
     "section": " Skills",
-    "text": "Skills\n\n\n\nCategory\nSkills\n\n\n\n\nProgramming\nPython, SQL\n\n\nTools\nQuarto, Git, Excel, Power BI\n\n\nAnalytics\nMachine Learning, Data Visualisation, Statistics"
+    "text": "Skills\n\n\n\nCategory\nSkills\n\n\n\n\nProgramming\nPython, SQL, C++\n\n\nTools\nQuarto, Git, Excel, Power BI, Informatica, Alteryx, Mulesoft\n\n\nAnalytics\nMachine Learning, Data Visualisation, Statistics"
   },
   {
     "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f636b6574207469746c653d224120726f636b6574207368697022203e7d7d-goals",
     "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120726f636b6574207469746c653d224120726f636b6574207368697022203e7d7d-goals",
     "title": "About",
     "section": " Goals",
-    "text": "Goals\n\n\n\n\n\n\nNote\n\n\n\nI am currently open to internship and graduate opportunities in data analytics and business intelligence.\n\n\nI aim to bridge the gap between raw data and actionable business insights — helping organisations make smarter, evidence-based decisions that drive real value.\nWith a strong foundation in ETL development, Python, and machine learning, I am keen to apply these skills in a role where data strategy and business outcomes go hand in hand.\nGoing forward, I aim to apply these skills in healthcare analytics or social entrepreneurship — fields where data-driven insights can create meaningful real-world impact."
+    "text": "Goals\n\n\n\n\n\n\nNote\n\n\n\nI am currently open to internship and graduate opportunities in data analytics and business intelligence.\n\n\nI aim to bridge the gap between raw data and actionable business insights — helping organisations make smarter, evidence-based decisions that drive real value.\nWith a strong foundation in ETL development, Python, and Machine Learning, I am keen to apply these skills in a role where data strategy and business outcomes go hand in hand.\nGoing forward, I aim to apply these skills in healthcare analytics or social entrepreneurship — fields where data-driven insights can create meaningful real-world impact."
   },
   {
     "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207369676e732d706f7374207469746c653d2241207369676e706f73742077697468206d756c7469706c6520646972656374696f6e7322203e7d7d-my-learning-journey",
@@ -91,39 +91,32 @@
     "text": "Conclusion\nBased on the analysis it is clear that other than total, which is a case of target leakage, the most important predictors of real revenue for 3XM Solutions are cost of shipping and weight, closely followed by day of order and admin order. The use of the RF model without total as well as the ridge regression are the best course of action going forward for 3XM Solutions to utilise ML models for revenue prediction. Given the importance of weight and cost of shipping, 3XM could focus on marketing larger products which provide more revenue in the short term such as folio boxes with prints etc. The lowest feature importance were the country variables, thus there is less need for 3XM to examine countries individually."
   },
   {
-    "objectID": "projects/list/project1.html",
-    "href": "projects/list/project1.html",
-    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "In this project I explored the Gapminder dataset to understand relationships between GDP, life expectancy, and population across countries and years.\n\n\n\nGlobal development trends visualised using the Gapminder dataset"
+    "text": "3XM Data Analytics Project\n\n\n\nPython\n\nData Analytics\n\n\n\nThis project applies two Machine learning algorithms to develop a complete business analytics pipeline for 3XM Solutions, a company specialising in premium products for…\n\n\n\nNov 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPower BI Dashboard — Sales Analysis\n\n\n\nPower BI\n\nData Visualisation\n\nBusiness Analytics\n\n\n\nAn interactive business dashboard built in Power BI analysing sales trends and KPIs.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBERT vs. Generative AI for Business Applications: A Sentiment Analysis Comparison Using Rotten Tomatoes Reviews\n\n\n\nPython\n\nNLP\n\nBERT\n\nDeep Learning\n\n\n\nFine-tuning BERT on Rotten Tomatoes reviews and comparing with Llama 3.1 zero-shot and few-shot prompting.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Trend Analysis\n\n\n\nPython\n\nSales\n\nData Analysis\n\nPandas\n\n\n\nAnalysing monthly sales trends and visualising performance across product categories.\n\n\n\nFeb 10, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "projects/list/project1.html#overview",
-    "href": "projects/list/project1.html#overview",
-    "title": "Exploratory Data Analysis — Gapminder Dataset",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & References",
     "section": "",
-    "text": "In this project I explored the Gapminder dataset to understand relationships between GDP, life expectancy, and population across countries and years.\n\n\n\nGlobal development trends visualised using the Gapminder dataset"
+    "text": "I’d love to connect! You can reach me through any of the following:\n\n\n\nPlatform\nLink\n\n\n\n\n Email\nmvmeghana9@gmail.com\n\n\n LinkedIn\nMeghana V Murthy\n\n\n GitHub\n55megh"
   },
   {
-    "objectID": "projects/list/project1.html#libraries-used",
-    "href": "projects/list/project1.html#libraries-used",
-    "title": "Exploratory Data Analysis — Gapminder Dataset",
-    "section": "Libraries Used",
-    "text": "Libraries Used\n\n\n\nLibrary\nPurpose\n\n\n\n\npandas\nData manipulation\n\n\nplotly.express\nInteractive visualisations"
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact & References",
+    "section": "",
+    "text": "I’d love to connect! You can reach me through any of the following:\n\n\n\nPlatform\nLink\n\n\n\n\n Email\nmvmeghana9@gmail.com\n\n\n LinkedIn\nMeghana V Murthy\n\n\n GitHub\n55megh"
   },
   {
-    "objectID": "projects/list/project1.html#analysis",
-    "href": "projects/list/project1.html#analysis",
-    "title": "Exploratory Data Analysis — Gapminder Dataset",
-    "section": "Analysis",
-    "text": "Analysis\n\nimport pandas as pd\nimport plotly.express as px\n\n# Load built-in Gapminder dataset\ndf = px.data.gapminder()\n\n# Filter for most recent year\ndf_2007 = df[df['year'] == 2007]\n\n# Interactive scatter plot\nfig = px.scatter(\n    df_2007,\n    x=\"gdpPercap\",\n    y=\"lifeExp\",\n    size=\"pop\",\n    color=\"continent\",\n    hover_name=\"country\",\n    log_x=True,\n    title=\"GDP per Capita vs Life Expectancy (2007)\",\n    labels={\"gdpPercap\": \"GDP per Capita\", \"lifeExp\": \"Life Expectancy\"}\n)\nfig.show()"
-  },
-  {
-    "objectID": "projects/list/project1.html#key-findings",
-    "href": "projects/list/project1.html#key-findings",
-    "title": "Exploratory Data Analysis — Gapminder Dataset",
-    "section": "Key Findings",
-    "text": "Key Findings\n\n\n\n\n\n\nNote\n\n\n\nCountries with higher GDP per capita generally show higher life expectancy, though with diminishing returns at very high income levels.\n\n\n\nEurope and Oceania consistently show the highest life expectancy.\nAfrica shows the most variation, suggesting other factors at play."
+    "objectID": "contact.html#references",
+    "href": "contact.html#references",
+    "title": "Contact & References",
+    "section": "References",
+    "text": "References\nAvailable upon request."
   },
   {
     "objectID": "reflection.html",
@@ -173,34 +166,6 @@
     "title": "Reflection",
     "section": "Connecting to My Future",
     "text": "Connecting to My Future\n\n\n\n\n\n\nTip\n\n\n\nThese skills are directly relevant to roles in data analytics, where communicating findings clearly is just as important as the analysis itself.\n\n\nThis module has been a turning point in how I think about data work. Having spent six years in data engineering at Cognizant and Infosys, I have strong technical foundations — but this portfolio has shown me the power of combining data science, analytics, and clear communication into one cohesive skill set.\nMy goal is to bring together my experience in data engineering, data science, and business analytics to deliver end-to-end value for organisations — from raw data pipelines all the way to strategic business insights. I believe this combination is what makes a truly impactful data professional in today’s industry."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact & References",
-    "section": "",
-    "text": "I’d love to connect! You can reach me through any of the following:\n\n\n\nPlatform\nLink\n\n\n\n\n Email\nmvmeghana9@gmail.com\n\n\n LinkedIn\nMeghana V Murthy\n\n\n GitHub\n55megh"
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact & References",
-    "section": "",
-    "text": "I’d love to connect! You can reach me through any of the following:\n\n\n\nPlatform\nLink\n\n\n\n\n Email\nmvmeghana9@gmail.com\n\n\n LinkedIn\nMeghana V Murthy\n\n\n GitHub\n55megh"
-  },
-  {
-    "objectID": "contact.html#references",
-    "href": "contact.html#references",
-    "title": "Contact & References",
-    "section": "References",
-    "text": "References\nAvailable upon request."
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "3XM Data Analytics Project\n\n\n\nPython\n\nData Analytics\n\n\n\nThis project applies two Machine learning algorithms to develop a complete business analytics pipeline for 3XM Solutions, a company specialising in premium products for…\n\n\n\nNov 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPower BI Dashboard — Sales Analysis\n\n\n\nPower BI\n\nData Visualisation\n\nBusiness Analytics\n\n\n\nAn interactive business dashboard built in Power BI analysing sales trends and KPIs.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBERT vs. Generative AI for Business Applications: A Sentiment Analysis Comparison Using Rotten Tomatoes Reviews\n\n\n\nPython\n\nNLP\n\nBERT\n\nDeep Learning\n\n\n\nFine-tuning BERT on Rotten Tomatoes reviews and comparing with Llama 3.1 zero-shot and few-shot prompting.\n\n\n\nApr 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Trend Analysis\n\n\n\nPython\n\nSales\n\nData Analysis\n\nPandas\n\n\n\nAnalysing monthly sales trends and visualising performance across product categories.\n\n\n\nFeb 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploratory Data Analysis — Gapminder Dataset\n\n\n\nPython\n\nEDA\n\nPlotly\n\nData Visualisation\n\n\n\nAnalysing global development trends using Python, pandas and Plotly.\n\n\n\nJan 15, 2025\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/list/project2.html",
