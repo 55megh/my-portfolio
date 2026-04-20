@@ -27,15 +27,15 @@ website:
     logo: images/logo.png
     logo-alt: "Meghana Murthy logo"
     left:
-      - text: "home"
+      - text: "Home"
         href: index.qmd
-      - text: "about"
+      - text: "About"
         href: about.qmd
-      - text: "projects"
+      - text: "Projects"
         href: projects/index.qmd
-      - text: "reflection"
+      - text: "Reflection"
         href: reflection.qmd
-      - text: "contact"
+      - text: "Contact"
         href: contact.qmd
     right:
       - text: "CV"

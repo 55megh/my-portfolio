@@ -1,0 +1,17 @@
+---
+title: "Contact & References"
+---
+
+## Get in Touch
+
+I'd love to connect! You can reach me through any of the following:
+
+| Platform | Link |
+|----------|------|
+| {{< fa envelope >}} Email | [mvmeghana9@gmail.com](mailto:mvmeghana9@gmail.com) |
+| {{< fa brands linkedin >}} LinkedIn | [Meghana V Murthy](https://www.linkedin.com/in/meghana-v-murthy/){target="_blank"} |
+| {{< fa brands github >}} GitHub | [55megh](https://github.com/55megh){target="_blank"} |
+
+## References
+
+Available upon request.
